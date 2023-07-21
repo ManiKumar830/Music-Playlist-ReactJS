@@ -1,0 +1,86 @@
+* {
+  margin: 0px;
+}
+.bg {
+  min-height: 100vh;
+  background-color: #152850;
+}
+.bg-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/music-playlist/music-playlist-Edsheeran-bg.png');
+  background-size: cover;
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 90px;
+}
+.heading {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 80px;
+}
+.singer-text {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 45px;
+  font-weight: 300;
+}
+.playlist-text {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 35px;
+}
+.bottom-container {
+  padding: 30px;
+  padding-left: 70px;
+}
+.playlist-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.input-container {
+  display: flex;
+  align-items: center;
+  border: 1px solid #cbd5e1;
+  border-radius: 4px;
+}
+.input-El {
+  background-color: transparent;
+  border: none;
+  height: 30px;
+  width: 300px;
+  color: #cbd5e1;
+  align-self: center;
+  outline: none;
+  font-family: 'Roboto';
+  font-size: 20px;
+  padding: 10px;
+}
+.search-icon {
+  color: #cbd5e1;
+  font-size: 30px;
+  padding: 3px;
+  margin-right: 10px;
+}
+.no-songs-container {
+  height: 50vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.songs-text {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 50px;
+  font-weight: 500;
+}
+
+.ulEl {
+  overflow-y: scroll;
+  list-style: none;
+  padding-left: 0px;
+  margin-top: 50px;
+}
